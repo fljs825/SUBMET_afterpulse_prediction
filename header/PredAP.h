@@ -6,7 +6,7 @@ struct SUBMETAPPred {
     double error;
 };
 
-SUBMETAPPred PredAP(double areaLP, double timeLP,
+SUBMETAPPred PredAP(int iMod, double areaLP, double timeLP,
                   double initPredTime, double finalPredTime);
 
 struct APParams {
