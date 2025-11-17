@@ -169,7 +169,7 @@ static APParams apTable[160] = {
 };
 
 // Calculate predicted afterpulses during initPredTime~finalPredTime
-SUBMETAPPred PredAP(int module = 0, double areaLP = 10000, double timeLP = 550,
+SUBMETAPPred PredAP(int iMod = 0, double areaLP = 10000, double timeLP = 550,
                   double initPredTime = 1150, double finalPredTime = 4096)
 {
     SUBMETAPPred out;
